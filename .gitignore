@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+Thumbs.db
+test-results/
+playwright-report/
+.env
+.env.*
+*.local.json
+__pycache__/
+
+# Local browser-test outputs
+__pycache__/
+tests/integration-results.json

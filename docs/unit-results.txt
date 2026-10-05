@@ -1,0 +1,184 @@
+TAP version 13
+# Subtest: rectangle clamps reverse dragging
+ok 1 - rectangle clamps reverse dragging
+  ---
+  duration_ms: 1.970888
+  type: 'test'
+  ...
+# Subtest: rectangle clamps outside coordinates
+ok 2 - rectangle clamps outside coordinates
+  ---
+  duration_ms: 0.170828
+  type: 'test'
+  ...
+# Subtest: zero-area rectangle rejected
+ok 3 - zero-area rectangle rejected
+  ---
+  duration_ms: 0.219061
+  type: 'test'
+  ...
+# Subtest: NaN coordinate rejected
+ok 4 - NaN coordinate rejected
+  ---
+  duration_ms: 0.108694
+  type: 'test'
+  ...
+# Subtest: off-image rectangle rejected
+ok 5 - off-image rectangle rejected
+  ---
+  duration_ms: 0.206362
+  type: 'test'
+  ...
+# Subtest: small input stays same size
+ok 6 - small input stays same size
+  ---
+  duration_ms: 0.139041
+  type: 'test'
+  ...
+# Subtest: large image scales proportionally
+ok 7 - large image scales proportionally
+  ---
+  duration_ms: 0.142195
+  type: 'test'
+  ...
+# Subtest: excessive pixel count rejected
+ok 8 - excessive pixel count rejected
+  ---
+  duration_ms: 0.194304
+  type: 'test'
+  ...
+# Subtest: invalid dimension rejected
+ok 9 - invalid dimension rejected
+  ---
+  duration_ms: 0.254745
+  type: 'test'
+  ...
+# Subtest: identical pixels produce zero diff
+ok 10 - identical pixels produce zero diff
+  ---
+  duration_ms: 0.505293
+  type: 'test'
+  ...
+# Subtest: one changed pixel in a 2x2 image is 25%
+ok 11 - one changed pixel in a 2x2 image is 25%
+  ---
+  duration_ms: 0.261636
+  type: 'test'
+  ...
+# Subtest: threshold uses strict greater-than
+ok 12 - threshold uses strict greater-than
+  ---
+  duration_ms: 0.109596
+  type: 'test'
+  ...
+# Subtest: threshold 0 detects any difference
+ok 13 - threshold 0 detects any difference
+  ---
+  duration_ms: 0.123817
+  type: 'test'
+  ...
+# Subtest: threshold 255 ignores all differences
+ok 14 - threshold 255 ignores all differences
+  ---
+  duration_ms: 0.154844
+  type: 'test'
+  ...
+# Subtest: ignore removes pixels from denominator
+ok 15 - ignore removes pixels from denominator
+  ---
+  duration_ms: 0.148794
+  type: 'test'
+  ...
+# Subtest: ignore precedence also applies inside protected regions
+ok 16 - ignore precedence also applies inside protected regions
+  ---
+  duration_ms: 0.133692
+  type: 'test'
+  ...
+# Subtest: all ignored returns null ratio, never NaN
+ok 17 - all ignored returns null ratio, never NaN
+  ---
+  duration_ms: 0.103035
+  type: 'test'
+  ...
+# Subtest: overlapping ignore regions not double-counted
+ok 18 - overlapping ignore regions not double-counted
+  ---
+  duration_ms: 0.147062
+  type: 'test'
+  ...
+# Subtest: mismatched pixel array lengths rejected
+ok 19 - mismatched pixel array lengths rejected
+  ---
+  duration_ms: 0.779528
+  type: 'test'
+  ...
+# Subtest: invalid threshold rejected
+ok 20 - invalid threshold rejected
+  ---
+  duration_ms: 0.114153
+  type: 'test'
+  ...
+# Subtest: heatmap is fully opaque
+ok 21 - heatmap is fully opaque
+  ---
+  duration_ms: 0.082805
+  type: 'test'
+  ...
+# Subtest: project restores manual checks as unverified
+ok 22 - project restores manual checks as unverified
+  ---
+  duration_ms: 0.376249
+  type: 'test'
+  ...
+# Subtest: SVG data URL rejected
+ok 23 - SVG data URL rejected
+  ---
+  duration_ms: 0.262347
+  type: 'test'
+  ...
+# Subtest: remote image URL rejected
+ok 24 - remote image URL rejected
+  ---
+  duration_ms: 0.10601
+  type: 'test'
+  ...
+# Subtest: duplicate region IDs rejected
+ok 25 - duplicate region IDs rejected
+  ---
+  duration_ms: 0.08607
+  type: 'test'
+  ...
+# Subtest: regions without before image rejected
+ok 26 - regions without before image rejected
+  ---
+  duration_ms: 0.07295
+  type: 'test'
+  ...
+# Subtest: overlarge number of regions rejected
+ok 27 - overlarge number of regions rejected
+  ---
+  duration_ms: 0.146371
+  type: 'test'
+  ...
+# Subtest: empty project is valid
+ok 28 - empty project is valid
+  ---
+  duration_ms: 0.080862
+  type: 'test'
+  ...
+# Subtest: wrong schema rejected
+ok 29 - wrong schema rejected
+  ---
+  duration_ms: 0.071568
+  type: 'test'
+  ...
+1..29
+# tests 29
+# suites 0
+# pass 29
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 73.937915

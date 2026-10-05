@@ -1,0 +1,102 @@
+[
+  {
+    "app": "koko-naoshite",
+    "test": "sample detects changes in protected region",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "clock exclusion is counted",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "canvas has actual rendered pixels",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "project export includes images and three regions",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "instruction edit clears verification",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "threshold edit invalidates diff and verification",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "keyboard coordinate form adds rectangle",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "region title is not interpreted as HTML",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "region deletion works",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "undo restores removed region",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "pointer drag creates rectangle",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "annotated PNG is valid PNG bytes",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "instruction file includes protected and fix intent",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "saved project restores images and regions",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "imported verification starts unchecked",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "external URL import rejected without losing current state",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "different image dimensions prevent false comparison",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "SVG upload is rejected",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "clear removes images and regions",
+    "pass": true
+  },
+  {
+    "app": "koko-naoshite",
+    "test": "no JavaScript errors",
+    "pass": true
+  }
+]

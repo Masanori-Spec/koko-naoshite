@@ -1,0 +1,14 @@
+{
+  "name": "koko-naoshite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "スクリーンショットに「修正する」「変更しない」「比較から除外」の範囲を記録し、修正指示と合格条件をまとめるローカルWebアプリです。修正後の画像を重ねて、守りたい場所の変化を確認できます。",
+  "scripts": {
+    "test": "node --test tests/core.test.cjs",
+    "check": "node --check common.js && node --check core.js && node --check app.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
